@@ -19,8 +19,8 @@
 
         <h2>RULES!!!!!!!!!!!!!!</h2>
         <ul>
-          <li>Each player will get a total of 6 multiple choice questions from each category</li>
-          <li>The 6 questions will contain 3 easy questions, 2 medium questions and 1 hard question</li>
+          <li>Each player will get a total of 5 multiple choice questions from each category</li>
+          <li>The 5 questions will contain 3 easy questions, 1 medium questions and 1 hard question</li>
           <li>Answering an easy question rewards 1 point</li>
           <li>Answering a medium questions rewards 3 points</li>
           <li>Answering a hard question rewards 5 points</li>

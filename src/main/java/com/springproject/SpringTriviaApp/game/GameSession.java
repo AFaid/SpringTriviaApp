@@ -19,7 +19,7 @@ public class GameSession {
 
     public void startGameSession(List<Player> playerList){
         playerHandler.setPlayers(playerList);
-        this.number_of_turns = playerList.size()*3;
+        this.number_of_turns = playerList.size()*5;
         this.current_turn = 1;
     }
 
