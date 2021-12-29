@@ -30,11 +30,17 @@ public class HomepageController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String displayHomepage(ModelMap model) throws JsonProcessingException {
 
+        clearQuestionData();
+
         List<CategoryEntity> category_lst = apiConnection.getAllCategories();
         categoryRepository.saveAll(category_lst);
 
         model.put("category_lst", category_lst);
         return "homepage";
+    }
+
+    private void clearQuestionData() {
+        questionRepository.deleteAll();
     }
 
     @RequestMapping(value = "/", params = {"player_num", "category1", "category2", "category3"}, method = RequestMethod.POST)
